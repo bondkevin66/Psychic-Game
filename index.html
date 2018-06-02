@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Hangman Game </title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div class ="content">
+		<div class="container-fluid">
+			<header class="row">
+				<nav class="col-md-12 col-sm-12 col-xs-12">
+					<div class="head"><img src="assets/images/hangman-title.jpg" id="header-img"></div>
+				</nav>
+			</header>
+			<section style="background:transparent url('assets/images/professor-xavier-featured.png') no-repeat center center /cover" class="row">
+			<div class="col-md-2 x">
+				</div>
+				<article class="col-md-8 left-well">
+					<h2> Is that... a voice?</h2>
+					<p> I need your help. This is Professor Charles Xavier speaking to you from within your mind. The villainous Mystique has infiltrated the school, posing as a student, and Emma Frost is shielding me from finding her telepathically. I need you to solve the puzzle and save the school. Good luck, X-Man! </p>
+				</article>
+				<div class="col-md-2 x">
+				</div>
+			</section>
+			<section class="row">
+				<div class="col-md-2 x">
+				</div>
+				<article class="col-md-8 right-well">
+					<h2> Hangman Game </h2>
+					<div class="row">
+						<div id="letterBlock"  class="col-md-12">
+						</div>
+					</div>
+					<div class="row">
+						<div>
+							<div class="title">
+								<p> Number of Remaining Guesses</p>
+							</div>
+							<div id="remainingGuesses">
+								<p>9</p>
+							</div>
+						</div>
+						<div>
+							<div class="title">
+								<p>Games Won</p>
+							</div>
+							<div id="winScore">
+								<p> 0 </p>
+
+							</div>
+						</div>
+						<div>
+							<div class="title">
+								<p>Games Lost</p>
+							</div>
+							<div id="loseScore">
+								<p> 0 </p>
+							</div>
+						</div>
+						<div >
+							<div class="title">
+								<p> Letters Guessed</p>
+							</div>
+							<div id="lettersGuessed">
+
+							</div>
+						</div>
+					</div>
+
+				</article>
+				<div class="col-md-2 x">
+				</div>
+			</section>
+		</div>
+	</div>
+	<div class = "container-fluid">
+
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
